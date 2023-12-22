@@ -1,9 +1,8 @@
 # Computer Science and Programming Study Guide
 
 
-Sure, here's the converted format for the information you provided:
-
-| **Unit I: Computer Organization and Architecture - Basic Concepts** | |
+## Computer Organization and Architecture
+| **Unit I: Basic Concepts** | |
 | --- | --- |
 | 1.1 | Components of data communication |
 | 1.2 | Distributed processing |
