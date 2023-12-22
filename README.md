@@ -1,8 +1,10 @@
 # Computer Science and Programming Study Guide
 
 
-## Computer Organization and Architecture
-### Unit – I: Basic Concepts
+Sure, here's the converted format for the information you provided:
+
+| **Unit I: Computer Organization and Architecture - Basic Concepts** | |
+| --- | --- |
 | 1.1 | Components of data communication |
 | 1.2 | Distributed processing |
 | 1.3 | Line configuration, topology |
@@ -13,25 +15,27 @@
 | 1.8 | Attenuation, distortion, noise, throughput |
 | 1.9 | Propagation speed and time, wavelength, Shannon Capacity |
 
-### Unit – II: Telephony and Data Link Layer
+| **Unit II: Computer Organization and Architecture - Telephony and Data Link Layer** | |
+| --- | --- |
 | 2.1 | Telephony: Multiplexing, WDM, TDM, FDM, circuit switching |
 | 2.2 | Packet switching and message switching |
 | 2.3 | Data Link Layer: Types of errors, Framing, error detection & correction methods |
 | 2.4 | Flow control |
 | 2.5 | Protocols: Stop & wait ARQ, Go-Back-N ARQ, Selective repeat ARQ |
 
-### Unit – III: Network Layer
+| **Unit III: Computer Organization and Architecture - Network Layer** | |
+| --- | --- |
 | 3.1 | Internetworking & Devices: Repeaters, Hubs, Bridges, Switches, Router, Gateway, Modems |
 | 3.2 | Addressing: IPv4 and IPv6 addressing, IPv4 subnetting |
 | 3.3 | Routing: Unicast Routing Protocols - RIP, OSPF, BGP |
 | 3.4 | Routing Methods - Static and Dynamic Routing |
 | 3.5 | Distance vector protocol, Link state protocol |
 
-### Unit – IV: Transport and Upper Layers in OSI Model
+| **Unit IV: Computer Organization and Architecture - Transport and Upper Layers in OSI Model** | |
+| --- | --- |
 | 4.1 | Transport layer functions and Protocols |
 | 4.2 | Connection management |
 | 4.3 | Functions of session layers, Presentation layer, and Application layer |
-
 
 ## Object-Oriented Programming (OOPS)
 
