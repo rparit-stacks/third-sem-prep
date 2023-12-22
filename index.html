@@ -1,299 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <style>
-        /* Neumorphic UI Styles */
-        /* Global Styles */
         body {
             background-color: #f0f0f0;
-            font-family: 'Arial', sans-serif;
+            color: #333;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
 
-        /* Neumorphic Box Styles */
-        .neumorphic-box {
-            background-color: #6b5b95; /* Purple background */
-            color: #fff; /* White text color */
-            border-radius: 20px;
-            padding: 20px;
-            margin: 20px;
-            box-shadow: 10px 10px 20px #523c6b, -10px -10px 20px #8d71a3; /* Purple box-shadow */
-        }
-
-        /* Neumorphic Button Styles */
-        .neumorphic-button {
-            background-color: #e0e0e0;
-            border: none;
-            border-radius: 10px;
-            padding: 10px 20px;
-            margin: 10px;
-            cursor: pointer;
-            box-shadow: 5px 5px 10px #c0c0c0, -5px -5px 10px #ffffff;
-            transition: background-color 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .neumorphic-button:hover {
-            background-color: #d0d0d0;
-            box-shadow: 8px 8px 15px #c0c0c0, -8px -8px 15px #ffffff;
-        }
-
-        /* Neumorphic Input Styles */
-        .neumorphic-input {
-            background-color: #e0e0e0;
-            border: none;
-            border-radius: 10px;
-            padding: 10px;
-            margin: 10px;
-            box-shadow: inset 5px 5px 10px #c0c0c0, inset -5px -5px 10px #ffffff;
-            transition: background-color 0.3s ease, box-shadow 0.3s ease;
-        }
-
-        .neumorphic-input:focus {
-            background-color: #d0d0d0;
-            box-shadow: inset 8px 8px 15px #c0c0c0, inset -8px -8px 15px #ffffff;
-        }
-
-        /* Table Styles */
         table {
             border-collapse: collapse;
             width: 100%;
-            margin-top: 20px; /* Adjust margin as needed */
+            margin-top: 20px;
+            background-color: #F0F0F0;
+            box-shadow: 5px 5px 15px #BDBDBD, -5px -5px 15px #FFFFFF;
+            border-radius: 15px;
+            overflow: hidden;
         }
 
-        th, td {
-            border: 1px solid #6b5b95; /* Purple border */
+        th,
+        td {
+            border: 1px solid #E0E0E0;
+            padding: 12px;
             text-align: left;
-            padding: 8px;
-            background-color: #e0e0e0; /* Apply Neumorphic background color */
-            box-shadow: 5px 5px 10px #c0c0c0, -5px -5px 10px #ffffff; /* Apply Neumorphic box-shadow */
+            transition: background-color 0.3s;
         }
 
         th {
-            background-color: #523c6b; /* Darker purple background for table headings */
-            color: #fff; /* White text color */
+            background-color: #E0E0E0;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #F0F0F0;
+        }
+
+        tr:hover {
+            background-color: #D0D0D0;
+        }
+
+        @media (max-width: 768px) {
+            th,
+            td {
+                font-size: 12px;
+            }
         }
     </style>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            var currentDate = new Date();
-            var currentDay = currentDate.getDate(); // Get the current day of the month
-
-            var tableRows = document.querySelectorAll('table tr');
-            tableRows.forEach(function(row) {
-                var rowDate = parseInt(row.cells[0].textContent.split('-')[2]); // Extract day from date string
-                if (rowDate === currentDay) {
-                    row.classList.add('highlight');
-                }
-            });
-        });
-    </script>
-    <title>Course Schedule</title>
+    <title>Study Schedule</title>
 </head>
+
 <body>
-    <header>
-        <h1>Today's Topic: COA - Basic Concepts</h1>
-    </header>
-    
-       
+    <div class="container">
+         <table>
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Subject 1</th>
+                <th>Subject 2</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tbody>
+            <tr>
+                <td>22/Dec</td>
+                <td><b>1. Computer Organization and Architecture:</b> <br> 1.1, 1.2, 1.3, 1.4, 1.5, 1.6</td>
+                <td><b>2. Object-Oriented Programming (OOPS):</b> <br> 5.1, 5.2, 5.3, 5.4, 5.5, 5.6</td>
+            </tr>
+            <tr>
+                <td>23/Dec</td>
+                <td><b>1. Computer Organization and Architecture:</b> <br> 1.7, 1.8, 1.9</td>
+                <td><b>2. Object-Oriented Programming (OOPS):</b> <br> 5.7, 5.8, 5.9, 6.1, 6.2, 6.3</td>
+            </tr>
+            <tr>
+                <td>24/Dec</td>
+                <td><b>1. Computer Organization and Architecture:</b> <br> 2.1, 2.2, 2.3, 2.4, 2.5</td>
+                <td><b>2. Object-Oriented Programming (OOPS):</b> <br> 6.4, 6.5, 6.6, 6.7, 6.8, 7.1</td>
+            </tr>
+            <tr>
+                <td>25/Dec</td>
+                <td><b>1. Computer Organization and Architecture:</b> <br> 2.6, 2.7, 2.8, 2.9, 4.1, 4.2</td>
+                <td><b>2. Object-Oriented Programming (OOPS):</b> <br> 7.2, 7.3, 7.4, 7.5, 7.6, 7.7</td>
+            </tr>
+            <tr>
+                <td>26/Dec</td>
+                <td><b>3. Python Programming:</b> <br> 9.1, 9.2, 9.3, 9.4, 9.5, 9.6</td>
+                <td><b>4. Principles of Management:</b> <br> 13.1, 13.2, 13.3, 13.4, 13.5, 14.1</td>
+            </tr>
+            <tr>
+                <td>27/Dec</td>
+                <td><b>3. Python Programming:</b> <br> 9.7, 9.8, 10.1, 10.2, 10.3, 10.4</td>
+                <td><b>4. Principles of Management:</b> <br> 14.2, 14.3, 14.4, 14.5, 14.6, 14.7</td>
+            </tr>
+            <tr>
+                <td>28/Dec</td>
+                <td><b>3. Python Programming:</b> <br> 10.5, 10.6, 10.7, 10.8, 10.9, 11.1</td>
+                <td><b>4. Principles of Management:</b> <br> 14.8, 15.1, 15.2, 15.3, 15.4, 15.5</td>
+            </tr>
+            <tr>
+                <td>29/Dec</td>
+                <td><b>3. Python Programming:</b> <br> 11.2, 11.3, 11.4, 11.5, 11.6, 11.7</td>
+                <td><b>4. Principles of Management:</b> <br> 15.6, 15.7, 15.8, 15.9, 16.1, 16.2</td>
+            </tr>
+            <tr>
+                <td>30/Dec</td>
+                <td><b>5. Human Values and Professional Ethics:</b> <br> 16.3, 16.4, 16.5, 16.6, 16.7, 16.8</td>
+                <td><b>6. Computer Networks and Communication:</b> <br> 20.1, 20.2, 20.3, 20.4, 20.5, 20.6</td>
+            </tr>
+            <tr>
+                <td>31/Dec</td>
+                <td><b>5. Human Values and Professional Ethics:</b> <br> 16.9, 17.1, 17.2, 17.3, 17.4, 17.5</td>
+                <td><b>6. Computer Networks and Communication:</b> <br> 21.1, 21.2, 21.3, 21.4, 21.5, 22.1</td>
+            </tr>
+            <tr>
+                <td>01/Jan</td>
+                <td><b>5. Human Values and Professional Ethics:</b> <br> 17.6, 17.7, 18.1, 18.2, 18.3, 18.4</td>
+                <td><b>6. Computer Networks and Communication:</b> <br> 22.2, 22.3, 22.4, 22.5, 23.1, 23.2</td>
+            </tr>
+
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr><tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr><tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            
+            
+
+            
+        </tbody>
+    </table>
     </div>
-    <title>Course Schedule</title>
-</head>
-<body>
-
-<table>
-    <tr>
-        <th>Date</th>
-        <th>Subject 1</th>
-        <th>Subject 2</th>
-    </tr>
-    <tr>
-        <td>2023-12-21</td>
-        <td><strong>COA - Basic Concepts</strong><br>
-            - Components of data communication<br>
-            - Distributed processing<br>
-            - Line configuration, topology<br>
-            - Transmission mode<br>
-            - Categories of networks<br>
-            - OSI and TCP/IP Models<br>
-            - Transmission Media: Guided and unguided<br>
-            - Attenuation, distortion, noise, throughput<br>
-            - Propagation speed and time, wavelength, Shannon Capacity<br>
-        </td>
-        <td><strong>OOPS - Object-Oriented Paradigm</strong><br>
-            - Procedural vs. object-oriented development<br>
-            - Basic concepts of object-oriented programming<br>
-            - Applications and benefits of OOP<br>
-            - Comparison between C and C++<br>
-            - Stream-based I/O, literals, operators in C++<br>
-            - Reference variable, functions, default arguments<br>
-            - Parameter passing by value, reference, and pointer<br>
-            - Inline functions, type conversion<br>
-            - New, delete operators, dynamic memory allocation for arrays<br>
-        </td>
-    </tr>
-    <tr>
-        <td>2023-12-22</td>
-        <td><strong>COA - Telephony and Data Link Layer</strong><br>
-            - Telephony: Multiplexing, WDM, TDM, FDM, circuit switching<br>
-            - Packet switching and message switching<br>
-            <strong>COA Continued -</strong><br>
-            - Data Link Layer: Types of errors, Framing, error detection & correction methods<br>
-            - Flow control<br>
-            - Protocols: Stop & wait ARQ, Go-Back-N ARQ, Selective repeat ARQ<br>
-        </td>
-        <td><strong>OOPS - Classes, Objects, Constructors & Destructors</strong><br>
-            - C++ class declaration, access specifiers, member functions<br>
-            - Arrays within a class, array of objects, memory allocation of objects<br>
-            - Passing objects as arguments, returning objects from functions<br>
-            - Function overloading, static data and member functions<br>
-            - Friend function and friend class, this pointer<br>
-            - Introduction to constructor and destructor<br>
-        </td>
-    </tr>
-    <tr>
-        <td>2023-12-23</td>
-        <td><strong>COA Continued - Network Layer</strong><br>
-            - Internetworking & Devices: Repeaters, Hubs, Bridges, Switches, Router, Gateway, Modems<br>
-            - Addressing: IPv4 and IPv6 addressing, IPv4 subnetting<br>
-            - Routing: Unicast Routing Protocols - RIP, OSPF, BGP<br>
-            - Routing Methods - Static and Dynamic Routing<br>
-            - Distance vector protocol, Link state protocol<br>
-            - Transport layer functions and Protocols<br>
-            - Connection management<br>
-            - Functions of session layers, Presentation layer, and Application layer<br>
-        </td>
-        <td><strong>OOPS - Inheritance, Polymorphism, Operator Overloading</strong><br>
-            - Types of inheritance, derivation - public, private & protected<br>
-            - Ambiguity resolution (function overriding), aggregation, composition vs. classification<br>
-            - Virtual base class, constructor and destructor in derived classes<br>
-            - Types of polymorphism, early vs. late binding<br>
-            - Virtual Functions: Need for virtual functions, pointer to derived class objects<br>
-            - Pure virtual functions, abstract classes<br>
-            - Overloading unary operators, nameless objects, overloading binary operators<br>
-            - Overloading with friend functions, conversion between basic types and user-defined types<br>
-        </td>
-    </tr>
-    <tr>
-        <td>2023-12-24</td>
-        <td><strong>COA Continued - Transport and Upper Layers</strong><br>
-            - Transport layer functions and Protocols<br>
-            - Connection management<br>
-            - Functions of session layers, Presentation layer, and Application layer<br>
-        </td>
-        <td><strong>OOPS - Parametric Polymorphism, Exception Handling, Streams & Files</strong><br>
-            - Generic Programming with Templates<br>
-            - Function templates/generic functions, characteristics<br>
-            - Overloading of template functions, class templates, template arguments<br>
-        </td>
-    </tr>
-    <tr>
-        <td>2023-12-25</td>
-        <td><strong>Computer Networks - Basic Concepts</strong><br>
-            - Components of data communication<br>
-            - Distributed processing<br>
-            - Line configuration, topology<br>
-            - Transmission mode<br>
-            - Categories of networks<br>
-            - OSI and TCP/IP Models<br>
-            - Transmission Media: Guided and unguided<br>
-            - Attenuation, distortion, noise, throughput<br>
-            - Propagation speed and time, wavelength, Shannon Capacity<br>
-        </td>
-        <td><strong>OOPS Continued - Streams & Files</strong><br>
-            - C++ Streams, basic stream classes, C++ predefined streams<br>
-            - I/O operations, unformatted console I/O operations, manipulators<br>
-            - Opening and closing a file - different modes and methods<br>
-            - Error handling during file operations, file pointers and their manipulations<br>
-            - Sequential access to files, random input and output operations<br>
-            - Persistent objects, command-line arguments<br>
-        </td>
-    </tr>
-    <tr>
-        <td>2023-12-26</td>
-        <td><strong>Computer Networks Continued - Telephony</strong><br>
-            - Telephony: Multiplexing, WDM, TDM, FDM, circuit switching<br>
-            - Packet switching and message switching<br>
-            <strong>Computer Networks Continued - Data Link Layer</strong><br>
-            - Types of errors, Framing (character and bit stuffing)<br>
-            - Error detection & correction methods<br>
-            - Flow control<br>
-            - Protocols: Stop & wait ARQ, Go-Back-N ARQ, Selective repeat ARQ<br>
-        </td>
-        <td><strong>Python - Basic Introduction</strong><br>
-            - Origin, Need of Python Programming<br>
-            - Features, program structure, identifiers, reserved words<br>
-            - Escape sequences, IDLE-Python Interpreter<br>
-            - Variables and assignment statements, data types<br>
-            - Operators: Assignment, Unary, Binary, Arithmetic, Relational, Logical, Bitwise Operator, membership operator<br>
-        </td>
-    </tr>
-    <tr>
-        <td>2023-12-27</td>
-        <td><strong>Computer Networks Continued - Network Layer</strong><br>
-            - Internetworking & Devices: Repeaters, Hubs, Bridges, Switches, Router, Gateway, Modems<br>
-            - Addressing: IPv4 and IPv6 addressing, IPv4 subnetting<br>
-            - Routing: Unicast Routing Protocols - RIP, OSPF, BGP<br>
-            - Routing Methods - Static and Dynamic Routing<br>
-            - Distance vector protocol, Link state protocol<br>
-            - Transport layer functions and Protocols<br>
-            - Connection management<br>
-            - Functions of session layers, Presentation layer, and Application layer<br>
-        </td>
-        <td><strong>Python Continued - Control Structures</strong><br>
-            - if-conditional statements, if –else condition, if-elif-else condition<br>
-            - Nested if-elif-else condition<br>
-            - Iteration (for Loop and while loop), Nested Loops<br>
-            - Break and continue statement<br>
-        </td>
-    </tr>
-    <tr>
-        <td>2023-12-28</td>
-        <td><strong>Computer Networks Continued - Transport</strong><br>
-            - Transport layer functions and Protocols<br>
-            - Connection management<br>
-            - Functions of session layers, Presentation layer, and Application layer<br>
-        </td>
-        <td><strong>Python Continued - Functions, Modules</strong><br>
-            - List operations: Length, concatenation, repetition, in, not in, max, min, sum, all, any<br>
-            - List methods: Append, extend, count, remove, index, pop, insert, sort, reverse<br>
-        </td>
-    </tr>
-    <tr>
-        <td>2023-12-29</td>
-        <td><strong>Computer Networks Continued - Upper Layers in OSI Model</strong><br>
-            - Transport layer functions and Protocols<br>
-            - Connection management<br>
-            - Functions of session layers, Presentation layer, and Application layer<br>
-        </td>
-        <td><strong>Python Continued - Functions, Modules</strong><br>
-            - Tuples: Creating tuples, Tuple operations<br>
-            - Dictionary: Creating, accessing values, adding, modifying and deleting items<br>
-            - Dictionary methods: Len, str, clear, copy, get, update, copy<br>
-        </td>
-    </tr>
-    <tr>
-        <td>2023-12-30</td>
-        <td><strong>Computer Networks Continued - Upper Layers in OSI Model (Cont.)</strong><br>
-            - Transport layer functions and Protocols<br>
-            - Connection management<br>
-            - Functions of session layers, Presentation layer, and Application layer<br>
-            - Overall Revision<br>
-            - Practice and Clarify Doubts<br>
-        </td>
-        <td><strong>Python Continued - Exception Handling, Streams & Files</strong><br>
-            - Exception-handling model, types of exception<br>
-            - Catching and handling exceptions, generic catch, rethrowing an exception<br>
-            - Specifying exceptions for a function<br>
-            - C++ Streams, basic stream classes, C++ predefined streams<br>
-            - I/O operations, unformatted console I/O operations, manipulators<br>
-            - Opening and closing a file - different modes and methods<br>
-            - Error handling during file operations, file pointers and their manipulations<br>
-            - Sequential access to files, random input and output operations<br>
-            - Persistent objects, command-line arguments<br>
-        </td>
-    </tr>
-</table>
-
 </body>
+
 </html>
