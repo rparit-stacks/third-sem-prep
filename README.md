@@ -1,3 +1,9 @@
+[![Toggle Dark/Light Mode](https://forum.vivaldi.net/assets/uploads/files/1605811972156-click-here-gif-4.gif)](https://rparit-stacks.github.io/third-sem-prep/)
+
+
+
+
+
 # Computer Science and Programming Study Guide
 
 
