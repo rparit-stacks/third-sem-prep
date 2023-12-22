@@ -2,7 +2,6 @@
 
 
 ## Computer Organization and Architecture
-
 ### Unit – I: Basic Concepts
 | 1.1 | Components of data communication |
 | 1.2 | Distributed processing |
