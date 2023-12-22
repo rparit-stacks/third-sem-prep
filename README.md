@@ -207,8 +207,8 @@
 
 
 ## Computer Networks and Communication
-
-### UNIT I: Basic Concepts
+| **Basic Concepts** | |
+| --- | --- |
 | 20.1 | Components of data communication |
 | 20.2 | Distributed processing |
 | 20.3 | Line configuration, topology, transmission mode |
@@ -221,7 +221,8 @@
 | 20.6.2 | Attenuation, distortion, noise, throughput |
 | 20.6.3 | Propagation speed and time, wavelength, Shannon Capacity |
 
-### UNIT II: Telephony and Data Link Layer
+| **Unit II: Computer Networks and Communication - Telephony and Data Link Layer** | |
+| --- | --- |
 | 21.1 | Telephony |
 | 21.1.1 | Multiplexing, WDM, TDM, FDM, circuit switching |
 | 21.1.2 | Packet switching and message switching |
@@ -231,7 +232,8 @@
 | 21.2.3 | Flow control |
 | 21.2.4 | Protocols: Stop & wait ARQ, Go-Back-N ARQ, Selective repeat ARQ |
 
-### UNIT III: Network Layer
+| **Unit III: Computer Networks and Communication - Network Layer** | |
+| --- | --- |
 | 22.1 | Internetworking & Devices |
 | 22.1.1 | Repeaters, Hubs, Bridges, Switches, Router, Gateway, Modems |
 | 22.2 | Addressing |
@@ -242,11 +244,11 @@
 | 22.3.3 | Routing basic commands |
 | 22.3.4 | Distance vector protocol, Link state protocol |
 
-### UNIT IV: Transport and Upper Layers in OSI Model
+| **Unit IV: Computer Networks and Communication - Transport and Upper Layers in OSI Model** | |
+| --- | --- |
 | 23.1 | Transport layer functions and Protocols |
 | 23.2 | Connection management |
 | 23.3 | Functions of session layers, Presentation layer, and Application layer |
-
 
 
 
