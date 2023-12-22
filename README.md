@@ -36,6 +36,11 @@
 | 4.2 | Connection management |
 | 4.3 | Functions of session layers, Presentation layer, and Application layer |
 
+<p align="center" style="position: relative;">
+  <span style="display: inline-block; width: 100px; height: 2px; background-color: #333; position: absolute; animation: animateLine 1s infinite alternate;"></span>
+</p>
+
+
 ## Object-Oriented Programming (OOPS)
 
 | **Unit – I: Object-Oriented Paradigm and Beginning with C++** | |
@@ -87,6 +92,9 @@
 | 8.11 | Sequential access to files, random input and output operations |
 | 8.12 | Persistent objects, command-line arguments |
 
+<p align="center" style="position: relative;">
+  <span style="display: inline-block; width: 100px; height: 2px; background-color: #333; position: absolute; animation: animateLine 1s infinite alternate;"></span>
+</p>
 
 
 ## Python Programming
@@ -132,6 +140,9 @@
 | 12.4 | Sequential access to files, random input and output operations |
 | 12.5 | Persistent objects, command-line arguments |
 
+<p align="center" style="position: relative;">
+  <span style="display: inline-block; width: 100px; height: 2px; background-color: #333; position: absolute; animation: animateLine 1s infinite alternate;"></span>
+</p>
 
 ## Principles of Management
 
@@ -161,6 +172,10 @@
 | 15.4 | Organizational Behavior: Concept and Nature of Organizational Behavior |
 | 15.5 | Importance, Challenges, and Opportunities |
 | 15.6 | Organizational culture: Meaning, importance, and characteristics |
+
+<p align="center" style="position: relative;">
+  <span style="display: inline-block; width: 100px; height: 2px; background-color: #333; position: absolute; animation: animateLine 1s infinite alternate;"></span>
+</p>
 
 
 ## Human Values and Professional Ethics
@@ -204,6 +219,10 @@
 | 19.5 | Depicting loyalty towards goals and objectives |
 | 19.6 | Ethics at the workplace: cybercrime, plagiarism, sexual misconduct, fraudulent use of institutional resources, etc. |
 | 19.7 | Ability to utilize professional competence for augmenting universal human order |
+
+<p align="center" style="position: relative;">
+  <span style="display: inline-block; width: 100px; height: 2px; background-color: #333; position: absolute; animation: animateLine 1s infinite alternate;"></span>
+</p>
 
 
 ## Computer Networks and Communication
