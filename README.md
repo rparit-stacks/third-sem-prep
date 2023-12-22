@@ -272,6 +272,104 @@
 | 4.2 | Connection management |
 | 4.3 | Functions of session layers, Presentation layer, and Application layer |
 
+## Object-Oriented Programming (OOPS)
+
+| **Unit – I: Object-Oriented Paradigm and Beginning with C++** | |
+| --- | --- |
+| 5.1 | Procedural vs. object-oriented development |
+| 5.2 | Basic concepts of object-oriented programming |
+| 5.3 | Applications and benefits of OOP |
+| 5.4 | Comparison between C and C++ |
+| 5.5 | Stream-based I/O, literals, operators in C++ |
+| 5.6 | Reference variable, functions, default arguments |
+| 5.7 | Parameter passing by value, reference, and pointer |
+| 5.8 | Inline functions, type conversion |
+| 5.9 | New, delete operators, dynamic memory allocation for arrays |
+
+| **Unit – II: Classes, Objects, Constructors & Destructors** | |
+| --- | --- |
+| 6.1 | C++ class declaration, access specifiers, member functions |
+| 6.2 | Arrays within a class, array of objects, memory allocation of objects |
+| 6.3 | Passing objects as arguments, returning objects from functions |
+| 6.4 | Function overloading, static data and member functions |
+| 6.5 | Friend function and friend class, this pointer |
+| 6.6 | Introduction to constructor and destructor |
+| 6.7 | Parameterized constructor, constructor with default arguments |
+| 6.8 | Multiple constructors in a class, copy constructor |
+
+| **Unit – III: Inheritance, Polymorphism, Operator Overloading** | |
+| --- | --- |
+| 7.1 | Types of inheritance, derivation - public, private & protected |
+| 7.2 | Ambiguity resolution (function overriding), aggregation, composition vs. classification |
+| 7.3 | Virtual base class, constructor and destructor in derived classes |
+| 7.4 | Types of polymorphism, early vs. late binding |
+| 7.5 | Virtual Functions: Need for virtual functions, pointer to derived class objects |
+| 7.6 | Pure virtual functions, abstract classes |
+| 7.7 | Overloading unary operators, nameless objects, overloading binary operators |
+| 7.8 | Overloading with friend functions, conversion between basic types and user-defined types |
+
+| **Unit – IV: Parametric Polymorphism, Exception Handling, Streams & Files** | |
+| --- | --- |
+| 8.1 | Generic Programming with Templates |
+| 8.2 | Function templates/generic functions, characteristics |
+| 8.3 | Overloading of template functions, class templates, template arguments |
+| 8.4 | Exception-handling model, types of exception |
+| 8.5 | Catching and handling exceptions, generic catch, rethrowing an exception |
+| 8.6 | Specifying exceptions for a function |
+| 8.7 | C++ Streams, basic stream classes, C++ predefined streams |
+| 8.8 | I/O operations, unformatted console I/O operations, manipulators |
+| 8.9 | Opening and closing a file - different modes and methods |
+| 8.10 | Error handling during file operations, file pointers and their manipulations |
+| 8.11 | Sequential access to files, random input and output operations |
+| 8.12 | Persistent objects, command-line arguments |
+
+
+
+## Python Programming
+
+| **Unit – I: Basic Introduction, Python Programming Introduction** | |
+| --- | --- |
+| 9.1 | Origin, Need of Python Programming |
+| 9.2 | Features, program structure, identifiers, reserved words |
+| 9.3 | Escape sequences, IDLE-Python Interpreter |
+| 9.4 | Variables and assignment statements, data types |
+| 9.5 | Operators: Assignment, Unary, Binary, Arithmetic, Relational, Logical, Bitwise Operator, membership operator |
+
+| **Unit – II: Control Structures, Strings, and Lists** | |
+| --- | --- |
+| 10.1 | if-conditional statements, if –else condition, if-elif-else condition |
+| 10.2 | Nested if-elif-else condition |
+| 10.3 | Iteration (for Loop and while loop), Nested Loops |
+| 10.4 | Break and continue statement |
+| 10.5 | Strings: Slicing, Membership, Built-in functions |
+| 10.6 | List: Creating, initializing, accessing, slicing, traversing |
+| 10.7 | List operations: Length, concatenation, repetition, in, not in, max, min, sum, all, any |
+| 10.8 | List methods: Append, extend, count, remove, index, pop, insert, sort, reverse |
+| 10.9 | Tuples: Creating tuples, Tuple operations |
+| 10.10 | Dictionary: Creating, accessing values, adding, modifying and deleting items |
+| 10.11 | Dictionary methods: Len, str, clear, copy, get, update, copy |
+
+| **Unit – III: Functions, Modules, NumPy Library** | |
+| --- | --- |
+| 11.1 | Functions: Defining, Calling, and Types of Functions |
+| 11.2 | Arguments and Return Values, Formal vs. Actual Arguments |
+| 11.3 | Scope and Lifetime, Keyword Arguments, Default Arguments, Recursion |
+| 11.4 | Modules: Importing Modules, Math and Random Module |
+| 11.5 | Creating your own modules, concept of Packages |
+| 11.6 | Introduction to NumPy, Creation of One-Dimensional Arrays |
+| 11.7 | Re-shaping of an Array, Element-wise Operations, Aggregate Operations |
+| 11.8 | Array indexing, Array Slicing, Insert Row/Columns, Append Row/Columns, Array Manipulation Operations |
+
+| **Unit – IV: Exception Handling, Streams & Files** | |
+| --- | --- |
+| 12.1 | Exception-handling model, types of exception |
+| 12.2 | Catching and handling exceptions, generic catch, rethrowing an exception |
+| 12.3 | File pointers and their manipulations |
+| 12.4 | Sequential access to files, random input and output operations |
+| 12.5 | Persistent objects, command-line arguments |
+
+
+
 
 
 
