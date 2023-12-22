@@ -277,3 +277,85 @@
 | 5.8 | Inline functions, type conversion |
 | 5.9 | New, delete operators, dynamic memory allocation for arrays |
 
+| **Object-Oriented Programming (OOPS)** | |
+| --- | --- |
+| **Unit – I: Object-Oriented Paradigm and Beginning with C++** | |
+| 5.1 | Procedural vs. object-oriented ... development |
+| ... 5.2 ... | Basic concepts of object-oriented programming |
+| 5.3 | Applications and benefits of OOP |
+| 5.4 | Comparison between C and C++ |
+| 5.5 | Stream-based I/O, literals, operators in C++ |
+| ... 5.6 | Reference ... variable, functions, ... default arguments |
+| 5.7 | Parameter passing by value, reference, and pointer |
+| 5.8 | Inline functions, type conversion |
+| 5.9 | New, delete operators, dynamic memory allocation for arrays |
+
+| **Unit – II: Classes, Objects, Constructors & Destructors** | |
+| 6.1 | C++ class declaration, access specifiers, member functions |
+| 6.2 | Arrays within a class, array of objects, memory allocation of objects |
+| 6.3 | Passing objects as arguments, returning objects from functions |
+| 6.4 | Function overloading, static data and member functions |
+| 6.5 | Friend function and friend class, this pointer |
+| 6.6 | Introduction to constructor and destructor |
+| 6.7 | Parameterized constructor, constructor with default arguments |
+| 6.8 | Multiple constructors in a class, copy constructor |
+
+| **Unit – III: Inheritance, Polymorphism, Operator Overloading** | |
+| 7.1 | Types of inheritance, derivation - public, private & protected |
+| 7.2 | Ambiguity resolution (function overriding), aggregation, composition vs. inheritance |
+| 7.3 | Virtual base class, constructor and destructor in derived classes |
+| 7.4 | Types of polymorphism, early vs. late binding |
+| 7.5 | Virtual Functions: Need for virtual functions, pointer to derived class objects |
+| 7.6 | Pure virtual functions, abstract classes |
+| 7.7 | Overloading unary operators, nameless objects, overloading binary operators |
+| 7.8 | Overloading with friend functions, conversion between basic types and user-defined types |
+
+| **Unit – IV: Parametric Polymorphism, Exception Handling, Streams & Files** | |
+| 8.1 | Generic Programming with Templates |
+| 8.2 | Function templates/generic functions, characteristics |
+| 8.3 | Overloading of template functions, class templates, template arguments |
+| 8.4 | Exception-handling model, types of exception |
+| 8.5 | Catching and handling exceptions, generic catch, rethrowing an exception |
+| 8.6 | Specifying exceptions for a function |
+
+| **Unit – III: Functions, Modules, NumPy Library** | |
+| 11.1 | Functions: Defining, Calling, and Types of Functions |
+| 11.2 | Arguments and Return Values, Formal ... Arrays |
+| 11.7 | Re-shaping of an Array, Element-wise Operations, Aggregate Operations |
+| 11.8 | Array indexing, Array ... Slicing, Insert Row/Columns, Append Row/Columns, Array Manipulation Operations |
+
+| **Unit – IV: Exception Handling, Streams & Files** | |
+| 12.1 | Exception-handling ... model, types of exception |
+| 12.2 | Catching and handling exceptions, generic catch, rethrowing an exception |
+| 12.3 | ... Specifying exceptions for a function |
+| 12.4 | C++ Streams, basic stream classes, C++ predefined streams |
+| 12.5 | I/O operations, unformatted console ... value education |
+
+| **Professional Ethics and Human Values** | |
+| --- | --- |
+| 16.4 | Thought-provoking issues: continuous happiness and prosperity |
+| 16.5 | Right understanding: relationship and physical ... facilities |
+| 16.6 | Choice ... Society, and Human Relations |
+| 17.1 | Understanding harmony in the family: the basic unit of human interaction |
+| 17.2 | Understanding values in ... Telephony |
+
+| **Unit – V: Data Communication and Networking** | |
+| 21.1.1 | Multiplexing, WDM, TDM, FDM, circuit ... switching |
+| 21.1.2 | Packet switching and message switching |
+| 21.2 | Data Link Layer |
+| 21.2.1 | Types of errors, Framing (character and bit ... ... Devices |
+| 22.1.1 | Repeaters, Hubs, Bridges, Switches, Router, Gateway, ... Modems |
+| 22.2 | Addressing |
+| 22.2.1 | IPv4 and IPv6 addressing, IPv4 subnetting |
+| 22.3 | Routing |
+| 22.3.1 | Unicast Routing ... Protocols: RIP, OSPF, BGP |
+| 22.3.2 | Routing Methods: Static and Dynamic ... Routing |
+| 22.3.3 | Routing basic commands |
+| 22.3.4 | Distance vector protocol, Link state protocol |
+
+| **Unit – IV: Transport and Upper Layers in OSI Model** | |
+| 23.1 | Transport ... layer ... functions and Protocols |
+| 23.2 | Connection management |
+| 23.3 | Functions of session layers, Presentation ... layer, and Application layer |
+
+
