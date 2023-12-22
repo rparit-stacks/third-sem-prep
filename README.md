@@ -8,39 +8,61 @@
 
 
 ## Computer Organization and Architecture
-| **Unit I: Basic Concepts** | |
-| --- | --- |
-| 1.1 | Components of data communication |
-| 1.2 | Distributed processing |
-| 1.3 | Line configuration, topology |
-| 1.4 | Transmission mode |
-| 1.5 | Categories of networks |
-| 1.6 | OSI and TCP/IP Models |
-| 1.7 | Transmission Media: Guided and unguided |
-| 1.8 | Attenuation, distortion, noise, throughput |
-| 1.9 | Propagation speed and time, wavelength, Shannon Capacity |
+Certainly! Here's the converted format for the information you provided:
 
-| **Unit II: Computer Organization and Architecture - Telephony and Data Link Layer** | |
+| **Unit I: Boolean Algebra and Logic** | |
 | --- | --- |
-| 2.1 | Telephony: Multiplexing, WDM, TDM, FDM, circuit switching |
-| 2.2 | Packet switching and message switching |
-| 2.3 | Data Link Layer: Types of errors, Framing, error detection & correction methods |
-| 2.4 | Flow control |
-| 2.5 | Protocols: Stop & wait ARQ, Go-Back-N ARQ, Selective repeat ARQ |
+| 1 | Basics Laws of Boolean Algebra |
+| 2 | Logic Gates |
+| 3 | Simplifications of Boolean equations using K-maps SOP and POS |
+| 4 | Don’t Care condition |
+| 5 | Arithmetic Circuits |
+| 6 | Adder |
+| 7 | Subtractor |
+| 8 | Parallel binary adder/Subtractor |
 
-| **Unit III: Computer Organization and Architecture - Network Layer** | |
+| **Unit II: Combinational Circuits and Flip-flops** | |
 | --- | --- |
-| 3.1 | Internetworking & Devices: Repeaters, Hubs, Bridges, Switches, Router, Gateway, Modems |
-| 3.2 | Addressing: IPv4 and IPv6 addressing, IPv4 subnetting |
-| 3.3 | Routing: Unicast Routing Protocols - RIP, OSPF, BGP |
-| 3.4 | Routing Methods - Static and Dynamic Routing |
-| 3.5 | Distance vector protocol, Link state protocol |
+| 1 | Multiplexers, De-Multiplexers, Decoders, Encoders |
+| 2 | Flip-flops |
+| 2.1 | S-R Flip-flop |
+| 2.2 | D Flip-flop |
+| 2.3 | J-K Flip-flop |
+| 2.4 | T Flip-flop |
+| 2.5 | Clocked Flip-flop |
+| 2.6 | Race around condition |
+| 2.7 | Master-slave Flip-Flop |
+| 2.8 | Realisation of one flip-flop using other flip-flop |
+| 2.9 | Applications of flip-flop: Latch, Registers, Counters (elementary treatment to be given) |
 
-| **Unit IV: Computer Organization and Architecture - Transport and Upper Layers in OSI Model** | |
+| **Unit III: Data Transfer Operations and Basic Computer Organizations** | |
 | --- | --- |
-| 4.1 | Transport layer functions and Protocols |
-| 4.2 | Connection management |
-| 4.3 | Functions of session layers, Presentation layer, and Application layer |
+| 1 | Register Transfer, Bus, and Memory Transfer |
+| 2 | Registers and Micro-operations |
+| 3 | Basic Computer Organizations and Design |
+| 3.1 | Instruction Codes |
+| 3.2 | Computer Registers |
+| 3.3 | Instruction Cycle |
+| 3.4 | General Register Organization |
+| 3.5 | Stack Organization |
+| 3.6 | Instruction Formats |
+| 3.7 | Addressing Modes |
+
+| **Unit IV: Input-Output Organization and Memory Organization** | |
+| --- | --- |
+| 1 | Input-Output Organization |
+| 1.1 | Peripheral Devices |
+| 1.2 | Input-Output Interfaces |
+| 1.3 | Asynchronous Data Transfer |
+| 1.4 | Modes of Transfer |
+| 1.5 | Priority Interrupt |
+| 1.6 | Direct Memory Access (DMA) |
+| 2 | Memory Organization |
+| 2.1 | Main Memory |
+| 2.2 | Auxiliary Memory |
+| 2.3 | Associative Memory |
+| 2.4 | Cache Memory |
+| 2.5 | Virtual Memory |
 
 <p align="center" style="position: relative;">
   <span style="display: inline-block; width: 100px; height: 2px; background-color: #333; position: absolute; animation: animateLine 1s infinite alternate;"></span>
