@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Template</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+    body {
+    font-family: 'JetBrains Mono', monospace;
+    background-color: #0f0f0f; /* Darker background for a more immersive feel */
+    color: #39ff14; /* Neon green text for a cyberpunk look */
+    font-weight: bold;
+}
+
+.sidebar {
+    background: #000000; /* Dark sidebar for contrast */
+    color: #39ff14; /* Neon green text */
+    min-height: 100vh;
+    border-right: 3px solid #39ff14; /* Neon border */
+}
+
+.sidebar .nav-link {
+    color: #8aff6d; /* Lighter neon for links */
+    margin: 10px 0;
+    text-shadow: 0 0 10px #39ff14; /* Text glow effect */
+}
+
+.sidebar .nav-link:hover {
+    background: #000000; /* Slightly lighter background on hover */
+    color: #ffffff;
+}
+
+.icon-left-bar {
+    display: inline-block;
+    width: 3rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.main-content {
+    background-color: #000000; /* Dark background for content */
+    padding: 20px;
+}
+
+.search-bar {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #000000;
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+    color: #39ff14; /* Neon text */
+    font-weight: bold;
+    outline: none;
+}
+
+.card {
+    background-color: #1f1f1f;
+    border: 3px solid #00bbff; /* Subtle neon border */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.6); /* Subtle glow effect */
+    margin-bottom: 1rem;
+    color: #26ff00; /* Neon text */
+}
+
+.card-header {
+    background-color: #252525;
+    color: #8aff6d;
+    border-bottom: 1px solid #444;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.course-card h5 {
+    margin: 0;
+    font-size: 1rem;
+    color: #4e94ce;
+    font-weight: bold;
+}
+
+.course-card p {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+    color: #dcdcdc;
+}
+
+.user-img {
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+}
+
+.sidebar .nav-link.active {
+    background: #007bff; /* Blue background for active link */
+    color: #ffffff;
+}
+
+.sidebar .nav-link:hover {
+    background: #00d9ff; /* Darker blue on hover */
+    color: #ffffff;
+}
+
+.course-card:hover {
+    box-shadow: 0 0 15px rgba(147, 35, 35, 0.755); /* Enhanced glowing effect */
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.highlight {
+    background-color: yellow; /* Change as needed */
+    color: black; /* Change as needed */
+}
+
+/* Style for rounded corners and hover effect */
+.course-card {
+    border-radius: 10px; /* Adjust for desired roundness */
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.course-card:hover {
+    transform: translateY(-10px); /* Lift effect on hover */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2); /* Shadow for depth */
+}
+
+/* Style for the "ACTIVE" label */
+.active-label {
+    display: inline-block;
+    background-color: grey;
+    color: white;
+    border-radius: 15px; /* Rounded corners for label */
+    padding: 3px 10px;
+    font-size: 0.8em;
+    margin-top: 10px; /* Spacing from the top of the card */
+}
+
+
+
+    </style>
+</head>
+<body>
+   <div class="container-fluid">
+    <div class="row">
+        <!-- Sidebar -->
+        <nav class="col-md-3 col-lg-2 d-md-block sidebar collapse">
+            <div class="sidebar-sticky">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="ggsipu.html" style="color: #1100ff; background-color: rgb(255, 255, 255)"> <!-- Light green font color and black background color -->
+                            <span class="icon-left-bar">📘</span>
+                            BCA GGSIPU
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sidebar-sticky">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">
+                            <span class="icon-left-bar">📘</span>
+                            BCA IGNOU
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4 main-content">
+            <!-- Search bar -->
+            <div class="d-flex justify-content-between align-items-center pt-3 pb-2 mb-3 border-bottom">
+                <h1 class="h2">Dashboard</h1>
+                <div>
+                    <input type="text" class="search-bar" placeholder="Search for something">
+                </div>
+            </div>
+
+            <!-- Content Rows -->
+            <div class="row">
+                <!-- Semester 1 -->
+                <div class="col-md-6">
+                    <a href="sem1-ip.html"> <!-- Replace "sem1-ip.html" with the actual path to the destination HTML file for Semester 1 -->
+                        <div class="card course-card">
+                            <div class="card-header">
+                                <h5>Semester 1</h5>
+                            </div>
+                            <div class="card-body">
+                                <p>University Name: Guru Gobind Singh Indraprastha University</p>
+                                <p>Institute Name: Institute of Information Technology & Management</p>
+                                <p>Type: Notes</p>
+                                <p>Language: English and Hinglish</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Semester 2 -->
+                <div class="col-md-6">
+                    <a href="sem2-ip.html"> <!-- Replace "sem2-ip.html" with the actual path to the destination HTML file for Semester 2 -->
+                        <div class="card course-card">
+                            <div class="card-header">
+                                <h5>Semester 2</h5>
+                            </div>
+                            <div class="card-body">
+                                <p>University Name: Guru Gobind Singh Indraprastha University</p>
+                                <p>Institute Name: Institute of Information Technology & Management</p>
+                                <p>Type: Notes</p>
+                                <p>Language: English and Hinglish</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Semester 3 -->
+                <div class="col-md-6">
+                    <a href="sem3-ip.html"> <!-- Replace "sem3-ip.html" with the actual path to the destination HTML file for Semester 3 -->
+                        <div class="card course-card">
+                            <div class="card-header">
+                                <h5>Semester 3</h5>
+                            </div>
+                            <div class="card-body">
+                                <p>University Name: Guru Gobind Singh Indraprastha University</p>
+                                <p>Institute Name: Institute of Information Technology & Management</p>
+                                <p>Type: Notes</p>
+                                <p>Language: English and Hinglish</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Semester 4 -->
+                <div class="col-md-6">
+                    <a href="sem4-ip.html"> <!-- Replace "sem4-ip.html" with the actual path to the destination HTML file for Semester 4 -->
+                        <div class="card course-card">
+                            <div class="card-header">
+                                <h5>Semester 4</h5>
+                            </div>
+                            <div class="card-body">
+                                <p>University Name: Guru Gobind Singh Indraprastha University</p>
+                                <p>Institute Name: Institute of Information Technology & Management</p>
+                                <p>Type: Notes</p>
+                                <p>Language: English and Hinglish</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Semester 5 -->
+                <div class="col-md-6">
+                    <a href="sem5-ip.html"> <!-- Replace "sem5-ip.html" with the actual path to the destination HTML file for Semester 5 -->
+                        <div class="card course-card">
+                            <div class="card-header">
+                                <h5>Semester 5</h5>
+                            </div>
+                            <div class="card-body">
+                                <p>University Name: Guru Gobind Singh Indraprastha University</p>
+                                <p>Institute Name: Institute of Information Technology & Management</p>
+                                <p>Type: Notes</p>
+                                <p>Language: English and Hinglish</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Semester 6 -->
+                <div class="col-md-6">
+                    <a href="sem6-ip.html"> <!-- Replace "sem6-ip.html" with the actual path to the destination HTML file for Semester 6 -->
+                        <div class="card course-card">
+                            <div class="card-header">
+                                <h5>Semester 6</h5>
+                            </div>
+                            <div class="card-body">
+                                <p>University Name: Guru Gobind Singh Indraprastha University</p>
+                                <p>Institute Name: Institute of Information Technology & Management</p>
+                                <p>Type: Notes</p>
+                                <p>Language: English and Hinglish</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+
+                
+                <!-- Additional Rows as needed... -->
+
+                <!-- JavaScript Libraries -->
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+            </main>
+        </div>
+    </div>
+
+    <script>
+    function highlightSearch() {
+        var input = document.querySelector('.search-bar').value.toLowerCase();
+        var contentCards = document.querySelectorAll('.course-card');
+
+        contentCards.forEach(card => {
+            unhighlight(card);
+            if (input !== '') {
+                highlight(card, input);
+            }
+        });
+    }
+
+    function highlight(element, input) {
+        var innerHTML = element.innerHTML;
+        var index = innerHTML.toLowerCase().indexOf(input);
+        while (index >= 0) {
+            innerHTML = innerHTML.substring(0, index) + "<span class='highlight'>" + innerHTML.substring(index, index + input.length) + "</span>" + innerHTML.substring(index + input.length);
+            index = innerHTML.toLowerCase().indexOf(input, index + input.length + "<span class='highlight'>".length);
+        }
+        element.innerHTML = innerHTML;
+    }
+
+    function unhighlight(element) {
+        var innerHTML = element.innerHTML.replace(/<span class="highlight">/g, "").replace(/<\/span>/g, "");
+        element.innerHTML = innerHTML;
+    }
+
+   document.querySelector('.search-bar').addEventListener('input', highlightSearch);
+      function highlightSearch() {
+        var input = document.querySelector('.search-bar').value.toLowerCase();
+        var contentCards = document.querySelectorAll('.course-card');
+
+        contentCards.forEach(card => {
+            unhighlight(card);
+            if (input !== '') {
+                highlight(card, input);
+            }
+        });
+    }
+
+    function highlight(element, input) {
+        var innerHTML = element.innerHTML;
+        var index = innerHTML.toLowerCase().indexOf(input);
+        while (index >= 0) {
+            innerHTML = innerHTML.substring(0, index) + "<span class='highlight'>" + innerHTML.substring(index, index + input.length) + "</span>" + innerHTML.substring(index + input.length);
+            index = innerHTML.toLowerCase().indexOf(input, index + input.length + "<span class='highlight'>".length);
+        }
+        element.innerHTML = innerHTML;
+    }
+
+    function unhighlight(element) {
+        var innerHTML = element.innerHTML.replace(/<span class="highlight">/g, "").replace(/<\/span>/g, "");
+        element.innerHTML = innerHTML;
+    }
+
+    function removeHighlightsOnClickOutside(e) {
+        if (!e.target.matches('.search-bar')) {
+            document.querySelectorAll('.course-card').forEach(card => {
+                unhighlight(card);
+            });
+            document.querySelector('.search-bar').value = ''; // Optional: clear the search bar
+        }
+    }
+
+    document.querySelector('.search-bar').addEventListener('input', highlightSearch);
+    document.addEventListener('click', removeHighlightsOnClickOutside);
+
+</script>
+
+
+</body>
+</html>

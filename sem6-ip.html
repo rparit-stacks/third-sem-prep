@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Item Hover Color Background</title>
+  <link rel='stylesheet' href='https://rawcdn.githack.com/SochavaAG/example-mycode/master/_common/css/reset.css'><link rel="stylesheet" href="./sem1-ip.css">
+
+</head>
+<style>
+ 
+/* Base styling for the card */
+
+
+.ag-courses-item_title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.ag-courses-item_date-box {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+/* Neumorphic button styles */
+.button {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #FFF;
+  background: #292E35; /* Same as card background */
+  border: none;
+  border-radius: 20px;
+  box-shadow:
+    -5px -5px 10px rgba(255, 255, 255, 0.05),
+    5px 5px 15px rgba(0, 0, 0, 0.5); /* Inset and outset shadows */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.button:hover {
+  box-shadow:
+    -2px -2px 5px rgba(255, 255, 255, 0.05),
+    2px 2px 5px rgba(0, 0, 0, 0.5); /* Lighter shadow for hover */
+}
+
+.button:active {
+  box-shadow:
+    inset -2px -2px 5px rgba(255, 255, 255, 0.2),
+    inset 2px 2px 5px rgba(0, 0, 0, 0.2); /* Pressed effect */
+}
+
+/* Neumorphic Heading Styles */
+.neumorphic-heading {
+  font-size: 30px; /* Adjust font size as needed */
+  text-align: center;
+  padding: 15px;
+  color: #66ff00; /* Black color */
+  background-color: #000000; /* Light gray background color */
+  border-radius: 20px;
+  box-shadow:
+    -5px -5px 10px rgba(13, 13, 13, 0.05),
+    10px 10px 20px rgb(0, 255, 55); /* Inset and outset shadows */
+  transition: box-shadow 1s ease-in-out;
+}
+
+.neumorphic-heading:hover {
+  box-shadow:
+    -2px -2px 5px rgba(255, 255, 255, 0.05),
+    2px 2px 5px rgba(0, 0, 0, 0.2); /* Lighter shadow on hover */
+}
+
+
+
+
+
+</style>
+<body>
+   <h1 class="neumorphic-heading">Semester 1</h1>
+<!-- partial:index.partial.html -->
+<div class="ag-format-container">
+  <div class="ag-courses_box">
+    <div class="ag-courses_item">
+      <div class="ag-courses_item">
+  <div class="ag-courses-item_link">
+    <div class="ag-courses-item_bg"></div>
+    <div class="ag-courses-item_title">Discrete Maths</div>
+    <div class="ag-courses-item_date-box">
+      Download :
+      <div class="ag-courses-item_date">
+        <a href="path/to/discrete_maths_english.pdf" class="button" download>English</a>
+        <a href="path/to/discrete_maths_hinglish.pdf" class="button" download>Hinglish</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+<!-- Course Card 1: Discrete Maths -->
+
+<!-- Course Card 2: Tech Communication -->
+<div class="ag-courses_item">
+  <div class="ag-courses-item_link">
+    <div class="ag-courses-item_bg"></div>
+    <div class="ag-courses-item_title">Tech Communication</div>
+    <div class="ag-courses-item_date-box">
+      Download :
+      <div class="ag-courses-item_date">
+        <a href="path/to/tech_communication_english.pdf" class="button" download>English</a>
+        <a href="path/to/tech_communication_hinglish.pdf" class="button" download>Hinglish</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Course Card 3: C Language -->
+<div class="ag-courses_item">
+  <div class="ag-courses-item_link">
+    <div class="ag-courses-item_bg"></div>
+    <div class="ag-courses-item_title">C Language</div>
+    <div class="ag-courses-item_date-box">
+      Download :
+      <div class="ag-courses-item_date">
+        <a href="path/to/c_language_english.pdf" class="button" download>English</a>
+        <a href="path/to/c_language_hinglish.pdf" class="button" download>Hinglish</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Course Card 4: Fundamentals of Computer -->
+<div class="ag-courses_item">
+  <div class="ag-courses-item_link">
+    <div class="ag-courses-item_bg"></div>
+    <div class="ag-courses-item_title">Fundamentals of Computer</div>
+    <div class="ag-courses-item_date-box">
+      Download :
+      <div class="ag-courses-item_date">
+        <a href="path/to/fundamentals_of_computer_english.pdf" class="button" download>English</a>
+        <a href="path/to/fundamentals_of_computer_hinglish.pdf" class="button" download>Hinglish</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Course Card 5: Web Technology -->
+<div class="ag-courses_item">
+  <div class="ag-courses-item_link">
+    <div class="ag-courses-item_bg"></div>
+    <div class="ag-courses-item_title">Web Technology</div>
+    <div class="ag-courses-item_date-box">
+      Download :
+      <div class="ag-courses-item_date">
+        <a href="path/to/web_technology_english.pdf" class="button" download>English</a>
+        <a href="path/to/web_technology_hinglish.pdf" class="button" download>Hinglish</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+  
+
+    
+
+  </div>
+</div>
+<!-- partial -->
+  
+</body>
+</html>
