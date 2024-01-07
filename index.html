@@ -155,6 +155,28 @@
     50% { opacity: 1; }
 }
 
+@media (max-width: 768px) {
+    .sidebar {
+        position: fixed;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        z-index: 1000;
+    }
+
+    .main-content {
+        margin-top: 60px;
+    }
+
+    .sidebar .nav-link, .main-content h1 {
+        font-size: 14px;
+    }
+
+    .search-bar {
+        width: 100%;
+    }
+}
+
 
 
 
@@ -164,7 +186,7 @@
    <div class="container-fluid">
         <div class="row">
             <!-- Sidebar -->
-            <nav class="col-md-3 col-lg-2 d-md-block sidebar collapse">
+            <nav class="col-12 col-sm-4 col-md-3 col-lg-2 d-md-block sidebar collapse">
                 <div class="sidebar-sticky">
                     <ul class="nav flex-column">
                         <li class="nav-item">
@@ -187,7 +209,7 @@
                 </div>
             </nav>
             <!-- Main Content -->
-            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4 main-content">
+            <main role="main" class="col-12 col-sm-8 col-md-9 ml-sm-auto col-lg-10 px-4 main-content">
                 <!-- Search bar -->
                 <div class="d-flex justify-content-between align-items-center pt-3 pb-2 mb-3 border-bottom">
                     <h1 class="h2">Dashboard</h1>
